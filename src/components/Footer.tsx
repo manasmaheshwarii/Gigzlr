@@ -25,26 +25,29 @@ const Footer: React.FC = () => {
               perfect candidate with our innovative job marketplace.
             </p>
             <div className="d-flex space-x-4">
-              <a
+              {/* <a
                 href="#"
                 className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
               >
                 <Facebook size={20} />
-              </a>
+              </a> */}
               <a
-                href="#"
+                href="https://x.com/manastwt"
+                target="_blank"
                 className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/manas-maheshwari-4737b9245/"
+                target="_blank"
                 className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
               >
                 <Linkedin size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/manasmaheshwarii/"
+                target="_blank"
                 className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
               >
                 <Instagram size={20} />
@@ -137,7 +140,7 @@ const Footer: React.FC = () => {
                   className="text-gigzlr-blue me-3 flex-shrink-0"
                 />
                 <span className="text-gigzlr-gray">
-                  315, GB Nen, Jaipur, Rajasthan, India
+                  C-Scheme, Jaipur, Rajasthan, India
                 </span>
               </li>
               <li className="d-flex mb-3">
@@ -149,7 +152,7 @@ const Footer: React.FC = () => {
                   href="tel:+15551234567"
                   className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
                 >
-                  +91 9414574XXX
+                  +91 7023913737
                 </a>
               </li>
               <li className="d-flex">
@@ -161,7 +164,7 @@ const Footer: React.FC = () => {
                   href="mailto:info@gigzlr.com"
                   className="text-gigzlr-gray hover:text-gigzlr-blue transition-colors"
                 >
-                  radhikapaliwal6@gmail.com
+                  manasmaheshwaricode@gmail.com
                 </a>
               </li>
             </ul>
