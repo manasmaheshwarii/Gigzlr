@@ -40,19 +40,13 @@ Gigzlr is a comprehensive freelancing platform designed to bridge the gap betwee
 - Tailwind CSS
 - Redux / Context API
 
-### Backend
-- Node.js / Python
-- Express.js / FastAPI
-- MongoDB / PostgreSQL
-- JWT Authentication
 
 ## 📦 Installation
 
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
-- MongoDB or PostgreSQL
-- Git
+- git
 
 ### Clone the Repository
 ```bash
@@ -67,32 +61,6 @@ npm install
 npm run dev
 ```
 
-### Backend Setup
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-### Environment Variables
-Create a `.env` file in both frontend and backend directories:
-
-**Backend `.env`:**
-```env
-PORT=5000
-DATABASE_URL=your_database_connection_string
-JWT_SECRET=your_jwt_secret_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-AWS_ACCESS_KEY_ID=your_aws_access_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret_key
-EMAIL_SERVICE_API_KEY=your_email_api_key
-```
-
-**Frontend `.env`:**
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
-```
 
 ##  Getting Started
 
@@ -115,17 +83,6 @@ REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 
 ## 📱 Usage Examples
 
-### Posting a Gig (Client)
-```javascript
-const newGig = {
-  title: "Modern Website Development",
-  description: "Need a responsive website for my business",
-  budget: 1500,
-  deadline: "2024-02-15",
-  skills: ["React", "Node.js", "MongoDB"],
-  category: "Web Development"
-};
-```
 
 ### Submitting a Proposal (Freelancer)
 ```javascript
@@ -146,84 +103,14 @@ const proposal = {
 cd frontend
 npm test
 
-# Backend tests
-cd backend
-npm test
-
-# Integration tests
-npm run test:integration
-```
-
-### Test Coverage
-```bash
-npm run test:coverage
-```
-
-## 📚 API Documentation
-
-### Authentication Endpoints
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
-- `GET /api/auth/profile` - Get user profile
-
-### Gig Endpoints
-- `GET /api/gigs` - Get all gigs
-- `POST /api/gigs` - Create new gig
-- `GET /api/gigs/:id` - Get specific gig
-- `PUT /api/gigs/:id` - Update gig
-- `DELETE /api/gigs/:id` - Delete gig
-
-### Proposal Endpoints
-- `POST /api/proposals` - Submit proposal
-- `GET /api/proposals/gig/:gigId` - Get proposals for a gig
-- `PUT /api/proposals/:id` - Update proposal status
-
-For complete API documentation, visit `/api/docs` when the server is running.
-
-## 🤝 Contributing
-
-We welcome contributions to Gigzlr! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-- Follow the existing code style and conventions
-- Write clear commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting
 
 ## 🐛 Known Issues
 
-- File upload size limitation (currently 10MB)
-- Real-time notifications may have slight delays
 - Search filters need performance optimization
 
 
 ## 👥 Team
 
-- **Manas Maheshwari** - *Project Lead & Full Stack Developer* - [@manasmaheshwarii](https://github.com/manasmaheshwarii)
-
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-- **Issues**: [GitHub Issues](https://github.com/manasmaheshwarii/Gigzlr/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/manasmaheshwarii/Gigzlr/discussions)
-
-## 🌟 Show Your Support
-
-If you find this project helpful, please consider:
-- Giving it a ⭐ on GitHub
-- Sharing it with others
-- Contributing to the codebase
-- Reporting bugs and suggesting features
-
----
+- **Manas Maheshwari** - *Full Stack Developer* - [@manasmaheshwarii](https://github.com/manasmaheshwarii)
 
 **  THANK YOU  **
