@@ -35,10 +35,9 @@ Gigzlr is a comprehensive freelancing platform designed to bridge the gap betwee
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js / Next.js
+- React.js 
 - TypeScript
 - Tailwind CSS
-- Redux / Context API
 
 
 ## 📦 Installation
